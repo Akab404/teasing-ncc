@@ -1,1 +1,68 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300..900&display=swap');
+/* @import "font-awesome"; */
+
+*{margin:0;font-family: "Red Hat Display", sans-serif;}
+.main-comp{
+  background: rgb(255,255,255);
+  background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(208,220,226,1) 100%);
+  height: 100vh;
+}
+.main-404{
+  background-image: url("assets/carbon.png");
+  height: 100vh;
+  color: white;
+  text-align: center;
+}
+.main-404 h1{
+  font-size: 55px;
+  font-weight: 900;
+  padding-top:150px;
+}
+
+.svg-draw{width:340px;margin:auto; padding-top:150px;}
+.cta-contact{
+  background: rgb(10,24,145);
+  background: linear-gradient(115deg, rgba(10,24,145,1) 0%, rgba(9,17,97,1) 100%);
+  color: white;
+  padding: 8px 40px;
+  width:310px;
+  margin:auto;
+  margin-top: 312px;
+  border-radius: 36px;
+  text-align: center;
+  font-size: 21px;
+    transition: all 0.4s cubic-bezier(0.75, 0, 0.30, 1) ;
+      border: solid 2px rgb(10,24,145);
+
+
+}
+.cta-contact:hover{
+  background:white;
+  color: rgb(10,24,145);
+  border: solid 2px rgb(10,24,145);
+  cursor: pointer;
+}
+.cta-contact:hover i{
+  transform: scale(1);
+  color: white;
+  background-color: rgb(10, 24, 145);
+  font-size: 10px;
+  padding: 5px;
+    margin-left: 25px;
+
+}
+.right-arrow i{
+  color: rgb(10, 24, 145);
+  background-color: white;
+  border-radius: 50%;
+  box-sizing: border-box;
+  height: 20px;
+  text-align: center;
+  width: 20px;
+  font-size: 18px;
+  margin-left: 15px;
+  transform: scale(0.2);
+    transition: all 0.8s cubic-bezier(0.75, 0, 0.30, 1) ;
+
+}

@@ -16,7 +16,7 @@ export class PageNotFoundComponentComponent {
 
 
     goToWelcomePage() {
-    this.router.navigate([`/welcome`])
+    this.router.navigate([``])
   }
 
 }
